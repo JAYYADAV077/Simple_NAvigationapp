@@ -26,11 +26,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MyApplicationTheme {
-          val navController = rememberNavController()
-                 NavHost(navController = navController, startDestination = PAge.screen1, builder = {
-                     composable(PAge.screen1){ page1(navController) }
-                     composable(PAge.screen2){ page2() }
-                 })
+
 
                 }
             }
