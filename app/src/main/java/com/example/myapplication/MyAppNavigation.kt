@@ -10,12 +10,12 @@ import com.example.myapplication.pages.LoginPage
 import com.example.myapplication.pages.SingupPage
 
 @Composable
-fun MyAppNAvigation(modifier: Modifier = Modifier) {
+fun MyAppNAvigation(modifier: Modifier = Modifier,vIewModel: AuthVIewModel) {
     val navController = rememberNavController()
     NavHost(navController = navController, startDestination = "Login", builder = {
-        composable("Login"){ LoginPage() }
-        composable("Home"){ HomePage() }
-        composable("Signup"){ SingupPage() }
+        composable("Login"){ LoginPage(modifier,navController,vIewModel) }
+        composable("Home"){ HomePage(modifier,navController,vIewModel )}
+        composable("Signup"){ SingupPage(modifier,navController,vIewModel) }
     })
 
 }
