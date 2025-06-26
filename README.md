@@ -21,6 +21,6 @@ A simple Android app that demonstrates Firebase Authentication with:<br><br>
 
 ## 📸 Screens
 
-1. **Signup Screen**<br>
+1. **Signup Screen**  ![image alt](https://github.com/JAYYADAV077/Simple_NAvigationapp/blob/5c2e22a29534ba82e1da938268a5464a6899ed7a/Screenshot%202025-06-26%20150521.png)<br>
 2. **Login Screen**<br>
 3. **Home Screen** (after authentication)<br>
